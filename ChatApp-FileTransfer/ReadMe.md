@@ -24,3 +24,6 @@ To compile the server and client programs, use the following commands:
 ```bash
 gcc server.c -o server
 gcc client.c -o client
+
+./server PORT_NUMBER
+./client LOCAL_ADDRESS PORT_NUMBER FILE_NAME
